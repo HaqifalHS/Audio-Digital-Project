@@ -1,7 +1,9 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/eeprom.h>
+
 uint8_t data;
+
 int main (void) {
 DDRB|=(1<<DDB7);
 DDRB|=(1<<DDB5);
