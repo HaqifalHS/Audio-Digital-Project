@@ -1,19 +1,24 @@
-Audio FILE is divided into 3 category:
-You can get its in Audio directory
+# Struktur Direktori Audio
 
----
+Direktori ini berisi beberapa jenis file audio yang dibagi ke dalam tiga kategori: MP3, Raw, dan Hex.
 
-- File MP3
-    projek_selamat datang.mp3
-    projek_terimakasih sampai jumpa.mp3
+## MP3 Files
 
----
+Dalam kategori ini, terdapat beberapa file dalam format MP3 yang dapat diakses:
 
-- File Raw
-    File type RAW can't uploud in github, we will pull this in another time
+- `projek_selamat datang.mp3`
+- `projek_terimakasih sampai jumpa.mp3`
 
----
+## Raw Files
 
-- File Hex
-    selamat_datang.unknown
-    terimakasih.unknown
+File-file dalam format RAW tidak dapat diunggah ke GitHub, oleh karena itu akan diproses secara terpisah pada waktu yang lain.
+
+## Hex Files
+
+Di sini, terdapat file-file dengan ekstensi `.unknown` yang mungkin berisi data audio dalam format heksadesimal:
+
+- `selamat_datang.unknown`
+- `terimakasih.unknown`
+
+Silakan merujuk ke masing-masing kategori untuk informasi lebih lanjut tentang file-file audio tersebut.
+
