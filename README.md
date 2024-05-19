@@ -7,6 +7,7 @@ This project is to make an audio recording which is then stored in the ATMEGA 25
 1. Arduino Mega2560
 2. Push Button
 ---
+
 ### Desain
 - Desan Mekanik 3D
 <img src="https://github.com/HaqifalHS/Audio-Digital-Project/issues/3#issuecomment-2095189850" width="300" height="200">
@@ -15,11 +16,13 @@ This project is to make an audio recording which is then stored in the ATMEGA 25
 ---
 
 ### Audio 
-File audio dari mp3 akan dikonversi menjadi file hex dengan urutan file ```mp3``` > ```raw``` > ```hex```. Konversi file raw ke hex melalui terminal ubuntu dengan command berikut :
+File audio dari mp3 akan dikonversi menjadi file hex dengan urutan file ```mp3``` > ```raw``` > ```hex```. Konversi file raw ke hex melalui terminal ubuntu dengan command berikut : 
 ```srec_cat file.raw -Binary -o new_file_name -C-Array```
 ```xxd -i file.raw > new_file_name.h```
+
 ---
 
 ### Program
 Program dibuat menggunakan platfromio.h dengan framework Arduino. Dimana program menggunakan bahasa cpp dengan berisikan kontrol PWM dan button, file ```hex``` dari audio dikonfigurasikan menjadi library
 
+---
