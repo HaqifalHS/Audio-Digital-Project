@@ -9,8 +9,6 @@
 ---
 ### Desain
 - ![Desain 3D](https://github.com/HaqifalHS/Audio-Digital-Project/issues/3#issuecomment-2095189850)
-https://github.com/HaqifalHS/Audio-Digital-Project/issues/3#issuecomment-2095189850
-- 
 - ![Skematik](https://github.com/HaqifalHS/Audio-Digital-Project/issues/7#issuecomment-2106579813)
 ---
 
