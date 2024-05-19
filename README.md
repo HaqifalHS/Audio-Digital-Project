@@ -1,6 +1,6 @@
 # Audio-Digital-Project
 
-```This project is to make an audio recording which is then stored in the ATMEGA 2560 EEPROM and converted into a PWM signal then the audio output is output to the active speaker.```
+This project is to make an audio recording which is then stored in the ATMEGA 2560 EEPROM and converted into a PWM signal then the audio output is output to the active speaker.
 
 ---
 ### Komponen
@@ -8,22 +8,17 @@
 2. Push Button
 ---
 ### Desain
-- ![Desain 3D](https://github.com/HaqifalHS/Audio-Digital-Project/issues/3#issuecomment-2095189850)
-- ![Skematik](https://github.com/HaqifalHS/Audio-Digital-Project/issues/7#issuecomment-2106579813)
+- Desan
+<img src="https://github.com/HaqifalHS/Audio-Digital-Project/issues/3#issuecomment-2095189850" alt="Desain Mekanik 3D" width="300" height="200">
+<img src="https://github.com/HaqifalHS/Audio-Digital-Project/issues/7#issuecomment-2106579813" alt="Desain Schematic" width="300" height="200">
 ---
 
-### Audio Converter
-- Source Mp3
-- File raw
+### Audio 
+File audio dari mp3 akan dikonversi menjadi file hex dengan urutan file ```mp3``` > ```raw``` > ```hex```. Konversi file raw ke hex melalui terminal ubuntu dengan command berikut :
+```srec_cat file.raw -Binary -o new_file_name -C-Array```
+```xxd -i file.raw > new_file_name.h```
 ---
 
-### PWM Control
-
----
-
-### Button Control
-
----
-
-### Integrated Program
+### Program
+Program dibuat menggunakan platfromio.h dengan framework Arduino. Dimana program menggunakan bahasa cpp dengan berisikan kontrol PWM dan button, file ```hex``` dari audio dikonfigurasikan menjadi library
 
