@@ -10,9 +10,9 @@ This project is to make an audio recording which is then stored in the ATMEGA 25
 
 ### Desain
 - Desan Mekanik 3D
-<img src="https://github.com/HaqifalHS/Audio-Digital-Project/issues/3#issuecomment-2095189850" width="300" height="200">
+  <img src="https://github.com/HaqifalHS/Audio-Digital-Project/issues/3#issuecomment-2095189850" width="300" height="200">
 - Desain Schematic
-<img src="https://github.com/HaqifalHS/Audio-Digital-Project/issues/7#issuecomment-2106579813" width="300" height="200">
+  <img src="https://github.com/HaqifalHS/Audio-Digital-Project/issues/7#issuecomment-2106579813" width="300" height="200">
 ---
 
 ### Audio 
