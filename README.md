@@ -6,6 +6,7 @@ This project is to make an audio recording which is then stored in the ATMEGA 25
 ### Komponen
 1. Arduino Mega2560
 2. Push Button
+3. Speaker Mono
 ---
 
 ### Desain
