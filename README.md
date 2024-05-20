@@ -20,11 +20,8 @@ This project is to make an audio recording which is then stored in the ATMEGA 25
 File audio dari mp3 akan dikonversi menjadi file hex dengan urutan file ```mp3``` > ```raw``` > ```hex```. Konversi file raw ke hex melalui terminal ubuntu dengan command berikut : <br>
 ```srec_cat file.raw -Binary -o new_file_name -C-Array```<br>
 ```xxd -i file.raw > new_file_name.h```
-
-
-
--Rekaman Audio
-<img src="[https://github.com/HaqifalHS/Audio-Digital-Project/blob/main/Audio/Audacity_Selamat%20datang.jpg]" width="300" height="200">
+Rekaman Audio <br>
+<img src="https://github.com/HaqifalHS/Audio-Digital-Project/blob/main/Audio/Audacity_Selamat%20datang.jpg" width="300" height="200">
 ---
 
 ### Program
