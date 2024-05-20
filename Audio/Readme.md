@@ -6,7 +6,7 @@ Direktori ini berisi beberapa jenis file audio yang dibagi ke dalam tiga kategor
 
 Dalam kategori ini, terdapat beberapa file dalam format MP3 yang dapat diakses:
 
-- `[projek_selamat datang.mp3](https://github.com/HaqifalHS/Audio-Digital-Project/blob/main/Audio/projek_selamat%20datang.mp3)`
+- `projek_selamat datang.mp3`
 - `projek_terimakasih sampai jumpa.mp3`
 
 ## Raw Files
