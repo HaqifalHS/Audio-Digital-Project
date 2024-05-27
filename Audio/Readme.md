@@ -6,8 +6,8 @@ Direktori ini berisi beberapa jenis file audio yang dibagi ke dalam tiga kategor
 
 Dalam kategori ini, terdapat beberapa file dalam format MP3 yang dapat diakses:
 
-- `projek_selamat datang.mp3`
-- `projek_terimakasih sampai jumpa.mp3`
+- [MP3 Selamat Datang](Audacity_Selamat-datang.jpg)
+- [MP3 Terimakasih](Audacity_Terimakasih.jpg)
 
 ## Raw Files
 
