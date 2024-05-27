@@ -11,14 +11,14 @@ Dalam kategori ini, terdapat beberapa file dalam format MP3 yang dapat diakses:
 
 ## Raw Files
 
-File-file dalam format RAW tidak dapat diunggah ke GitHub, oleh karena itu akan diproses secara terpisah pada waktu yang lain.
+File-file dalam format RAW kami berikan dalam file [Audio RAW](Audio_RAW.zip).
 
 ## Hex Files
 
 Di sini, terdapat file-file dengan ekstensi `.unknown` yang mungkin berisi data audio dalam format heksadesimal:
 
-- `selamat_datang.unknown`
-- `terimakasih.unknown`
+- [RAW Selamat Datang](selamat_datang.unknown)
+- [RAW Terimakasih](terimakasih.unknown)
 
 Silakan merujuk ke masing-masing kategori untuk informasi lebih lanjut tentang file-file audio tersebut.
 
