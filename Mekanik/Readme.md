@@ -31,4 +31,4 @@ Kemudian kita aturpada bagian Support dan Build Plate Adhesion:
 <img src="pic/prosess.jpg" width="300" height="200">
 <img src="pic/prosess2.jpg" width="300" height="200">
 9.	Hasil akhir
-<img src="pic/Hasil-Akir.jpg" width="300" height="200">
+<img src="pic/Hasil-Akhir.jpg" width="300" height="200">
