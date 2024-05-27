@@ -30,3 +30,5 @@ Kemudian kita aturpada bagian Support dan Build Plate Adhesion:
 8.	Jika layer pertama sudah selesai atau dirasa sudah bagus naikan kecepatan ke 100% agar cepat selesai.
 <img src="pic/prosess.jpg" width="300" height="200">
 <img src="pic/prosess2.jpg" width="300" height="200">
+9.	Hasil akhir
+<img src="pic/Hasil-Akir.jpg" width="300" height="200">
