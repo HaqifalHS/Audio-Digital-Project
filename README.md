@@ -12,32 +12,15 @@
 3. Speaker Mono
 --- 
 
-### Desain
+### [Desain](https://github.com/HaqifalHS/Audio-Digital-Project/blob/e685f46bf5777b190d26c859aad1c4a9765173e5/Mekanik/Readme.md)
 - Desan Mekanik 3D<br>
-  <img src="assets/mekanik.png">
+  <img src="assets/mekanik.png" width="300" height="200">
 - Desain Schematic<br>
-  <img src="assets/schematic.png">
+  <img src="assets/schematic.png" width="300" height="200">
 ---
 
 ### Audio
 File audio dari mp3 akan dikonversi menjadi file hex dengan urutan file ```mp3``` > ```raw``` > ```hex```.
-
-Cara untuk mengatur sample rate:
-1. Klik edit
-2. Klik Preference
-3. Ubah sample rate menjadi '8000 Hz'
-
-Rekaman Audio mp3 dikonversi menjadi file raw menggunakan software ```Audacity```<br>
-<img src="assets/photo2.jpg" width="300" height="200">
-
-Cara menyimpan audio dengan format file ```raw```
-1. Klik File
-2. Klik Export Audio
-3. Pilih Export to Computer
-4. Pada format pilih 'Other uncompressed files'
-5. Pada header pilih 'RAW (header-less)
-6. Pada encoding pilih 'Signed 8-bit PCM'
-7. Terakhir klik export
 
 Selanjutnya konversi file raw ke hex melalui terminal ubuntu dengan command berikut : <br>
 ```srec_cat file.raw -Binary -o new_file_name -C-Array```<br>
