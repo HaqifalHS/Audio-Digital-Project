@@ -1,6 +1,8 @@
 <img src="assets/WARM_GREETING_DEVICE.png">
 
 # Warm Greeting Device
+## Cara Kerja
+Warm greeting device dibuat untuk membantu penjual untuk menyambut pembeli sebagai daya tarik pembeli, alat ini menggunakan 2 push button, dimana salah satu push button untuk menyambut pembeli dengan audio "Selamat datang di toko kami" dan push button lainnya dengan audio "Terimakasih sampai jumpa".
 ### Audio-Digital-Project
 
 >This project is to make an audio recording which is then stored in the ATMEGA 2560 EEPROM and converted into a PWM signal then the audio output is output to the active speaker.
