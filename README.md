@@ -12,8 +12,8 @@
 3. Speaker Mono
 --- 
 
-### [Desain](https://github.com/HaqifalHS/Audio-Digital-Project/blob/e685f46bf5777b190d26c859aad1c4a9765173e5/Mekanik/Readme.md)
-- Desan Mekanik 3D<br>
+### Desain
+- [Desan Mekanik 3D](https://github.com/HaqifalHS/Audio-Digital-Project/blob/e685f46bf5777b190d26c859aad1c4a9765173e5/Mekanik/Readme.md)<br>
   <img src="assets/mekanik.png" width="300" height="200">
 - Desain Schematic<br>
   <img src="assets/schematic.png" width="300" height="200">
