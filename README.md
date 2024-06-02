@@ -3,7 +3,7 @@
 # Warm Greeting Device
 ## Audio-Digital-Project
 
-   Project ini berkerja untuk membuat rekaman audio yang akan disimpan pada EEPROM Arduino Mega 2560 yang diubah menjadi sinyal PWM. `Warm Greeting Device` dibuat untuk membantu penjual untuk menyambut pembeli sebagai daya tarik pembeli.
+    Project ini berkerja untuk membuat rekaman audio yang akan disimpan pada EEPROM Arduino Mega 2560 yang diubah menjadi sinyal PWM. `Warm Greeting Device` dibuat untuk membantu penjual untuk menyambut pembeli sebagai daya tarik pembeli.
     
     Sistem berjalan apablia Push Button 1 ditekan maka akan menulis data pada EEPROM yang berupa input audio `Selamat Datang` ke pada pembeli yang datang ke Toko. 
     
