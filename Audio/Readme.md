@@ -27,7 +27,7 @@ a. Cara untuk mengatur sample rate:
 1. Klik edit
 2. Klik Preference
 3. Ubah sample rate menjadi '8000 Hz' <br>
-<img src="Audio/img/Audacity_Setting.jpg" width="300" height="200">
+<img src="[Audio/img/Audacity_Setting.jpg](https://github.com/HaqifalHS/Audio-Digital-Project/blob/186254c3902b45b8997220046535c20c822e5d68/Audio/img/Audacity_Setting.jpg)" width="300" height="200">
 
 b. Cara menyimpan audio dengan format file ```raw```
 1. Klik File
