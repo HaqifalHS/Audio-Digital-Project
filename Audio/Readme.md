@@ -22,3 +22,18 @@ Di sini, terdapat file-file dengan ekstensi `.unknown` yang mungkin berisi data 
 
 Silakan merujuk ke masing-masing kategori untuk informasi lebih lanjut tentang file-file audio tersebut.
 
+## Tutorial
+a. Cara untuk mengatur sample rate:
+1. Klik edit
+2. Klik Preference
+3. Ubah sample rate menjadi '8000 Hz' <br>
+<img src="assets/photo2.jpg" width="300" height="200">
+
+b. Cara menyimpan audio dengan format file ```raw```
+1. Klik File
+2. Klik Export Audio
+3. Pilih Export to Computer
+4. Pada format pilih 'Other uncompressed files'
+5. Pada header pilih 'RAW (header-less)
+6. Pada encoding pilih 'Signed 8-bit PCM'
+7. Terakhir klik export
