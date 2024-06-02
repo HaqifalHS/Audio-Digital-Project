@@ -14,9 +14,9 @@
 
 ### Desain
 - [Desan Mekanik 3D](https://github.com/HaqifalHS/Audio-Digital-Project/blob/e685f46bf5777b190d26c859aad1c4a9765173e5/Mekanik/Readme.md)<br>
-  <img src="assets/mekanik.png" width="300" height="200">
+  <img src="https://github.com/HaqifalHS/Audio-Digital-Project/blob/e33110678c75640b1c9dc7cf8615ef37a85bc81d/assets/rancangan_sistem.png" width="300" height="200">
 - Desain Schematic<br>
-  <img src="assets/schematic.png" width="300" height="200">
+  <img src="https://github.com/HaqifalHS/Audio-Digital-Project/blob/e33110678c75640b1c9dc7cf8615ef37a85bc81d/assets/skematik.png" width="300" height="200">
 ---
 
 ### [Audio](https://github.com/HaqifalHS/Audio-Digital-Project/blob/2348ff62978557f05a66bd87971e037f53e90160/Audio/Readme.md)
