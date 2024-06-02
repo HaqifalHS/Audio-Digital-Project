@@ -30,7 +30,7 @@ ISR(TIMER1_COMPA_vect) {
     uint16_t size = pgm_read_word(&sds[current_chunk]);
 
     if (index < size) {
-      uint8_t sample = pgm_read_byte_far(ADDR + index);
+      uint8_t sample = pgm_read_byte_far(addr + index);
       OCR1A = sample; // Update PWM duty cycle
       index++;
     } else {
