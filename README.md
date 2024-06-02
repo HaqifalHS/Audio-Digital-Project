@@ -11,7 +11,10 @@
 2. Push Button
 3. Speaker Mono
 --- 
+### Block Diagram
+<img src="https://github.com/HaqifalHS/Audio-Digital-Project/blob/f4499125f9e494aa4fdc2bc73da82e70bb7e9b9d/assets/blokDiagram.jpg" width="600" height="500">
 
+---
 ### Desain
 - [Desan Mekanik 3D](https://github.com/HaqifalHS/Audio-Digital-Project/blob/e685f46bf5777b190d26c859aad1c4a9765173e5/Mekanik/Readme.md)<br>
   <img src="https://github.com/HaqifalHS/Audio-Digital-Project/blob/e33110678c75640b1c9dc7cf8615ef37a85bc81d/assets/rancangan_sistem.png" width="300" height="200">
