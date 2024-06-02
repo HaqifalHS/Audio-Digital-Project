@@ -1,3 +1,5 @@
+<img src="https://github.com/HaqifalHS/Audio-Digital-Project/blob/b843e2fe109f1bfcd451e1050608798c83466ffc/assets/WARM%20GREETING%20DEVICE.png">
+
 # Audio-Digital-Project
 
 >This project is to make an audio recording which is then stored in the ATMEGA 2560 EEPROM and converted into a PWM signal then the audio output is output to the active speaker.
