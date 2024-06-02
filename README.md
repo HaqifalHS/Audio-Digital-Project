@@ -13,9 +13,9 @@
 
 ### Desain
 - Desan Mekanik 3D<br>
-  <img src="assets/mekanik.png" width="300" height="200">
+  <img src="assets/mekanik.png">
 - Desain Schematic<br>
-  <img src="assets/schematic.png" width="300" height="200">
+  <img src="assets/schematic.png">
 ---
 
 ### Audio
