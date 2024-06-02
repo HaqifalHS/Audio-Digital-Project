@@ -74,7 +74,12 @@ File audio dari mp3 akan dikonversi menjadi file hex dengan urutan file `mp3` > 
 Selanjutnya konversi file raw ke hex melalui terminal ubuntu dengan command berikut : <br>
 `srec_cat file.raw -Binary -o new_file_name -C-Array`<br>
 `xxd -i file.raw > new_file_name.h` <br>
-[![Konversi Audop mp3 to hex](Audio/assets/Audacity_Setting.jpg)](https://youtu.be/vvN2oGWzwE8)
+
+Berikut ini cara mengonversi `mp3` to `hex` <br>
+
+https://github.com/HaqifalHS/Audio-Digital-Project/assets/161258021/f7ce8587-4347-4032-91a0-f2add8da7c45
+
+<br> [![Konversi Audop mp3 to hex](Audio/assets/Audacity_Setting.jpg)](https://youtu.be/vvN2oGWzwE8)
 
 
 ---
