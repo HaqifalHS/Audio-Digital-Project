@@ -19,7 +19,7 @@
   <img src="assets/schematic.png" width="300" height="200">
 ---
 
-### Audio
+### [Audio](https://github.com/HaqifalHS/Audio-Digital-Project/blob/2348ff62978557f05a66bd87971e037f53e90160/Audio/Readme.md)
 File audio dari mp3 akan dikonversi menjadi file hex dengan urutan file ```mp3``` > ```raw``` > ```hex```.
 
 Selanjutnya konversi file raw ke hex melalui terminal ubuntu dengan command berikut : <br>
