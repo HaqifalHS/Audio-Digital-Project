@@ -52,8 +52,8 @@
 4. Speaker Mono
 --- 
 ### [Schematic](Schematic/Readme.md)
-Hardware Sistem berjalan berdasarkan blok diagram berikut.
-<img src="assets/Blok_Diagram_Sistem.jpg" width="450" height="200"><br>
+Hardware Sistem berjalan berdasarkan blok diagram berikut.<br>
+<img src="assets/Blok_Diagram_Sistem.jpg" width="6000" height="200"><br>
 - [Desain Schematic](Schematic/Schematic.pdf)<br>
   <img src="assets/schematic.png" width="300" height="230">
 
