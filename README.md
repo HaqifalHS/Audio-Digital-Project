@@ -12,7 +12,7 @@
 3. Speaker Mono
 --- 
 ### Block Diagram
-<img src="https://github.com/HaqifalHS/Audio-Digital-Project/blob/f4499125f9e494aa4fdc2bc73da82e70bb7e9b9d/assets/blokDiagram.jpg" width="600" height="500">
+<img src="https://github.com/HaqifalHS/Audio-Digital-Project/blob/f4499125f9e494aa4fdc2bc73da82e70bb7e9b9d/assets/blokDiagram.jpg">
 
 ---
 ### Desain
