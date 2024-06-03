@@ -52,3 +52,9 @@ setelahnya akan muncul file baru dengan nama 'new_file_name' yang kita ganti
 `xxd -i file.raw > new_file_name.h` <br>
 <img src="assets/xxd.png">
 5. Setelahnya file 'new_file_name' yang telah dibuat sebelumnya akan diubah menjadi file Hex.
+
+<br>Berikut  video tutorial konversi MP3 to Hex
+
+https://github.com/HaqifalHS/Audio-Digital-Project/assets/161258021/f7ce8587-4347-4032-91a0-f2add8da7c45
+
+---
