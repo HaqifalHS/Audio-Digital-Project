@@ -38,6 +38,7 @@ Output sistem akan berupa audio yang dijalankan pada speaker aktif.
 - [Desain 3D](#desain-3d)
 - [Audio](#audio)
 - [Program](#program)
+- [Dokumentasi](#dokumentasi)
 
 ## Komponen
 1. Arduino Mega2560
@@ -79,3 +80,16 @@ Berikut ini cara mengonversi `mp3` to `hex` <br>
 ## [Program](Program/main.cpp)
 Program dibuat menggunakan Platfrom.io dengan framework Arduino. Dimana program menggunakan bahasa `AVR` dengan berisikan kontrol PWM dan button, file `hex` dari audio dikonfigurasikan menjadi library, dan main program akan mengakses library tersebut sebagai input yang akan ditulis pada EEPROM.
 
+# Dokumentasi 
+- Sesi Konversi Audio
+ <img src="assets/Dokumentasi_audacity.jpg">
+- Sesi Desain mekanik
+<img src="assets/Dokumentasi_mekanik.jpg">
+- Sesi Desain Skematik
+<img src="assets/Dokumentasi_skematik.jpg">
+- Sesi Penyolderan
+<img src="assets/Dokumentasi_solder.jpg">
+- Sesi Pemrograman
+<img src="assets/Dokumentasi_pro..jpg">
+- Sesi Update Dokumentasi Github
+<img src="assets/Dokumentasi_readme.jpg">
