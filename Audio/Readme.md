@@ -23,17 +23,29 @@ Di sini, terdapat file-file dengan ekstensi `.unknown` yang mungkin berisi data 
 Silakan merujuk ke masing-masing kategori untuk informasi lebih lanjut tentang file-file audio tersebut.
 
 ## Tutorial
-a. Cara untuk mengatur sample rate:
+-  Cara untuk mengatur sample rate:
 1. Klik edit
 2. Klik Preference
 3. Ubah sample rate menjadi '8000 Hz' <br>
 <img src="assets/Audacity_Setting.jpg">
-b. Cara menyimpan audio dengan format file ```raw```
+- Cara menyimpan audio dengan format file `raw`
 1. Klik File
 2. Klik Export Audio
 3. Pilih Export to Computer
-4. Pada format pilih 'Other uncompressed files'
-5. Pada header pilih 'RAW (header-less)
-6. Pada encoding pilih 'Signed 8-bit PCM'
-7. Terakhir klik export
+4. Pada format pilih `Other uncompressed files`
+5. Pada header pilih `RAW (header-less)`
+6. Pada encoding pilih `Signed 8-bit PCM`
+7. Terakhir klik `export`
 <img src="assets/Audacity_File%20RAW.jpg">
+
+- Cara konversi file `raw` ke `hex`
+1. Buka OS `Ubuntu`
+2. Buka folder directori tempat penyimpanan file raw pada `terminal` 
+<img src="assets/buka_dir.png">
+3. Jalankan command `srec_cat file.raw -Binary -o new_file_name -C-Array`
+<img src="assets/srec_cat.png">
+setelahnya akan muncul file baru dengan nama 'new_file_name' yang kita ganti
+4. Jalankan command
+`xxd -i file.raw > new_file_name.h` <br>
+<img src="assets/xxd.png">
+5. Setelahnya file 'new_file_name' yang telah dibuat sebelumnya akan diubah menjadi file Hex.
