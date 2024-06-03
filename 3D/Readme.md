@@ -2,6 +2,7 @@
 Pada 3D Design ini menggunakan aplikasi Blender 3D Design, desain dengan menambahkan objek dan menyesuaikan ukuran dimensi Arduino ATMega 2560 dan komponen lain seperti push button dan port female audio.
 <br><img src="assets/image.png" width="800" height="700">
 <br>[Link Youtube Tutorial Cara membuat 3D Design memakai aplikasi Blender 3D Design](https://youtu.be/owjvlIGOzr0?feature=shared)
+<br><img src="assets/WhatsApp Image 2024-06-03 at 10.33.19.jpeg" width="500" height="300">
 <br>[Link Thingiverse untuk asset .stl dan preview design](https://www.thingiverse.com/thing:6646095)
 
 # Hasil Final dari design 3D
