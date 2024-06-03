@@ -1,3 +1,6 @@
+# Proses 3D Design
+Pada 3D Design ini menggunakan aplikasi Blender 3D Design, desain dengan menambahkan objek dan menyesuaikan ukuran dimensi Arduino ATMega 2560 dan komponen lain seperti push button dan port female audio.
+
 # Proses 3D Print
 Sesi 3D printer dilakukan dengan mengubah file desain kedalam bentuk ```stl``` yang kemudian dibuah kedalam bahasa mesin ```G code``` untuk dimasukkan kedalam memori card yang kemudian diinputkan kedalam mesin 3D Print.
 
