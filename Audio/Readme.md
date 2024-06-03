@@ -1,6 +1,9 @@
 # Struktur Direktori Audio
 
 Direktori ini berisi beberapa jenis file audio yang dibagi ke dalam tiga kategori: MP3, Raw, dan Hex.
+- [Audio File](#mp3-files)
+- [Tutorial](#tutorial)
+
 
 ## MP3 Files
 

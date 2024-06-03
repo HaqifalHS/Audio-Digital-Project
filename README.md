@@ -82,14 +82,14 @@ Program dibuat menggunakan Platfrom.io dengan framework Arduino. Dimana program 
 
 # Dokumentasi 
 - Sesi Konversi Audio
- <img src="assets/Dokumentasi_audacity.jpg">
+ <img src="assets/Dokumentasi_audacity.jpg" width="300" height="200">
 - Sesi Desain mekanik
-<img src="assets/Dokumentasi_mekanik.jpg">
+<img src="assets/Dokumentasi_mekanik.jpg" width="300" height="350">
 - Sesi Desain Skematik
-<img src="assets/Dokumentasi_skematik.jpg">
-- Sesi Penyolderan
-<img src="assets/Dokumentasi_solder.jpg">
-- Sesi Pemrograman
-<img src="assets/Dokumentasi_pro..jpg">
+<img src="assets/Dokumentasi_skematik.jpg" width="300" height="350">
+- Sesi Penyolderan<br>
+<img src="assets/Dokumentasi_solder.jpg" width="300" height="230">
+- Sesi Pemrograman<br>
+<img src="assets/Dokumentasi_pro..jpg" width="300" height="200">
 - Sesi Update Dokumentasi Github
-<img src="assets/Dokumentasi_readme.jpg">
+<img src="assets/Dokumentasi_readme.jpg" width="300" height="200">
