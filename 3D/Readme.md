@@ -3,8 +3,8 @@ Pada 3D Design ini menggunakan aplikasi Blender 3D Design, desain dengan menamba
 <br><img src="assets/image.png" width="800" height="700">
 <br>1.  [Link Youtube Tutorial Cara membuat 3D Design memakai aplikasi Blender 3D Design](https://youtu.be/owjvlIGOzr0?feature=shared)
 <br><img src="assets/WhatsApp Image 2024-06-03 at 10.33.19.jpeg" width="500" height="300">
-<br>[Link Thingiverse untuk asset .stl dan preview design](https://www.thingiverse.com/thing:6646095)
-<br>2.  <img src="assets/WhatsApp Image 2024-06-03 at 10.30.07.jpeg" width="400" height="350">
+<br>2.  [Link Thingiverse untuk asset .stl dan preview design](https://www.thingiverse.com/thing:6646095)
+<br><img src="assets/WhatsApp Image 2024-06-03 at 10.30.07.jpeg" width="400" height="350">
 
 # Hasil Final dari design 3D
 <br><img src="assets/WhatsApp Image 2024-06-03 at 10.14.16.jpeg" width="800" height="700">
