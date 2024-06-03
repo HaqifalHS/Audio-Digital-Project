@@ -15,3 +15,15 @@ Kemudian pada bagian Top kita berikan keterangan jalur komponennya.
 Sehingga didapatkan hasil akhir [Board](Board.pdf) sebagai berikut.
  <img src="assets/Foto_Board.png" width="400" height="200">
 7. Dan ketika pada schematic ada perubahan, pada PCB editor klik ```tools->update PCB from schematic``` untuk melakukan perubahan di bagian rangkaian schematic-nya dan untuk meng-update PCB dari schematic yang diubah.
+
+## Hasil Akhir Schematic
+
+- File Project dari keseluruhan desain dapat di akses pada [Project](Shield_arduino_mega.kicad_pro)
+- File Board pada desain schematic dapat di akses pada [File Brd](Shield_arduino_mega.kicad_pcb)
+- File Rangkaian Schematic pada desain dapat di akses pada [File Sch](Shield_arduino_mega.kicad_sch)<br>
+
+Untuk hasil cetak PCB sebagai berikut : 
+- PCB Top
+<img src="assets/Top PCB.jpg">
+- PCB Button 
+<img src="assets/Button PCB.jpg">
