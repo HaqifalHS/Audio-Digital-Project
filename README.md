@@ -11,7 +11,10 @@ Sedangkan ketika Push Button 2 ditekan maka akan menulis data pada EEPROM yang b
 
 Output sistem akan berupa audio yang dijalankan pada speaker aktif.
 
----
+[Data sheet Atmega2560](Datasheet/Datasheet%20Atmega.pdf)<br>
+[Pin Out Atmega](Datasheet/Atmega%20pinOut.pdf)<br>
+[Pin Out Arduino Uno](Datasheet/Uno%20pinOut.pdf)<br>
+
 
 ## Support By :
 >- Dosen Pengampu : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)
@@ -28,7 +31,7 @@ Output sistem akan berupa audio yang dijalankan pada speaker aktif.
 | 2122500021    | Handika Bimantara               | Audio Processor | [@HanBim](https://github.com/hanbima21)
 | 2122500025    | M. Farhan Abdullah              | 3D Designer     | [@025Farhan](https://github.com/025Farhan)
 
-## Daftar Isi 
+# Daftar Isi 
 - [Deskripsi](#warm-greeting-device)
 - [Support](#support-by-)
 - [Team Member](#team-member-)
@@ -40,22 +43,25 @@ Output sistem akan berupa audio yang dijalankan pada speaker aktif.
 - [Program](#program)
 - [Dokumentasi](#dokumentasi)
 
-## Komponen
+# Komponen
 1. Arduino Mega2560
 2. Shield PCB
 3. Push Button (2)
 4. Speaker Mono
 
 
-### [Schematic](Schematic/Readme.md)
----
+# [Schematic](Schematic/Readme.md)
 Hardware Sistem berjalan berdasarkan blok diagram berikut.<br>
-<img src="assets/Blok_Diagram_Sistem.jpg" width="600" height="200"><br>
-- Desain Schematic<br>
-  <img src="assets/schematic.png" width="300" height="230">
+<img src="assets/Blok_Diagram_Sistem.jpg" width="300" height="100"><br>
+- Desain Schematic Sistem<br>
+  <img src="assets/schematic.png" width="300" height="230"><br>
+- Desain Shield Arduino <br>
+<img src="Schematic/assets/3D_Viewer_Buttom.png" width ="300"><br>
+
+Untuk desain schematic lebih lengkap buka [Readme.md](Schematic/Readme.md)
 
 
-## [Desain 3D](3D/Readme.md)
+# [Desain 3D](3D/Readme.md)
 Desain sistem keseluruhan dalam segi 3D ditampilkan sebagai berikut.
 - Desain Mekanik 3D<br>
   <img src="assets/Mekanik.png" width="300" height="200"><br>
@@ -66,7 +72,7 @@ Untuk Shield Arduino dan PCB didesain seperti ini.
 Cara desain secara lengkap dapat diakses dalam [Link Youtube](https://youtu.be/owjvlIGOzr0?feature=shared) berikut.
 Untuk hasil akhir desain dapat di unduh dalam website [`Thingivers`](https://www.thingiverse.com/thing:6646095) berikut. 
 
-## [Audio](Audio/Readme.md)
+# [Audio](Audio/Readme.md)
 File audio dari mp3 akan dikonversi menjadi file hex dengan urutan file `mp3` > `raw` > `hex`.
 
 Selanjutnya konversi file raw ke hex melalui terminal ubuntu dengan command berikut : <br>
@@ -77,13 +83,13 @@ Berikut ini cara mengonversi `mp3` to `hex` <br>
 [Click here!](https://github.com/HaqifalHS/Audio-Digital-Project/assets/161258021/f7ce8587-4347-4032-91a0-f2add8da7c45) atau anda dapat mengakses pada link [Youtube](https://youtu.be/vvN2oGWzwE8) berikut.
 
 
-## [Program](Program/main.cpp)
+# [Program](Program/main.cpp)
 Program dibuat menggunakan Platfrom.io dengan framework Arduino. Dimana program menggunakan bahasa `AVR` dengan berisikan kontrol PWM dan button, file `hex` dari audio dikonfigurasikan menjadi library, dan main program akan mengakses library tersebut sebagai input yang akan ditulis pada EEPROM.
 
-# Dokumentasi 
+# Dokumentasi
 - Sesi Konversi Audio
  <img src="assets/Dokumentasi_audacity.jpg" width="300" height="200">
-- Sesi Desain mekanik
+- Sesi Desain 3D <br>
 <img src="assets/Dokumentasi_mekanik.jpg" width="300" height="350">
 - Sesi Desain Skematik
 <img src="assets/Dokumentasi_skematik.jpg" width="300" height="350">

@@ -23,7 +23,7 @@ Sehingga didapatkan hasil akhir [Board](Board.pdf) sebagai berikut.
 - File Rangkaian Schematic pada desain dapat di akses pada [File Sch](Shield_arduino_mega.kicad_sch)<br>
 
 Untuk hasil cetak PCB sebagai berikut : 
-- PCB Top
-<img src="assets/Top PCB.jpg">
-- PCB Button 
-<img src="assets/Button PCB.jpg">
+- PCB Top<br>
+<img src="assets/Top PCB.jpg" width="300" height="200">
+- PCB Button <br>
+<img src="assets/Button PCB.jpg" width="300" height="200">
