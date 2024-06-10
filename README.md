@@ -90,7 +90,7 @@ Berikut ini cara mengonversi `mp3` to `hex` <br>
 Program dibuat menggunakan Platfrom.io dengan framework Arduino. Dimana program menggunakan bahasa `AVR` dengan berisikan kontrol PWM dan button, file `hex` dari audio dikonfigurasikan menjadi library, dan main program akan mengakses library tersebut sebagai input yang akan ditulis pada EEPROM.
 
 # Simulasi
-Berikut ini adalah link agar dapat mengggakses simulasi pada wokwi, anda dapat mengakses pada link [wokwi](https://wokwi.com/projects/400275871995460609) berikut
+Berikut ini adalah link agar dapat mengggakses simulasi pada wokwi, anda dapat mengakses pada link [wokwi](https://wokwi.com/projects/400235394432257025) berikut
 
 # Demo
 https://github.com/users/HaqifalHS/projects/1/assets/161258021/f70e3e33-900d-4587-8c9e-36dd7cb58eec
