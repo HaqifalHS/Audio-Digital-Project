@@ -41,6 +41,9 @@ Output sistem akan berupa audio yang dijalankan pada speaker aktif.
 - [Desain 3D](#desain-3d)
 - [Audio](#audio)
 - [Program](#program)
+- [Simulasi](#simulasi)
+- [Demo](#demo)
+- [Flyer](#flyer)
 - [Dokumentasi](#dokumentasi)
 
 # Komponen
