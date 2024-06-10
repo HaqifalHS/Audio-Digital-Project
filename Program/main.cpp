@@ -1,63 +1,54 @@
+#include <avr/pgmspace.h>
+#include <Arduino.h>
 #include <avr/io.h>
 #include <util/delay.h>
-#include <avr/eeprom.h>
+#include "audio1.h"
+#include "audio2.h"
 
-uint8_t data;
+const int audioDataSize1 = sizeof(audioData1);
+const int audioDataSize2 = sizeof(audioData2);
+const int speakerPin = 9; // Pin speaker
 
-int main (void) {
-DDRB|=(1<<DDB7);
-DDRB|=(1<<DDB5);
-PORTB|= (1<<4); // D9-PH.6 pullup pushbtn -konfirm mode
-PORTH|= (1<<5); // D10-PB.4 pullup pushbtn --change mode
-PORTH|= (1<<6); // D8-PH.5 pullup pushbtn -run
-DDRA=0xFF;
-data=eeprom_read_byte((uint8_t*)0);
-PORTA=~data;
-
-while(1){
-
-  while (!(PINB&(1<<4)))
-  {
-    if(data++<=8) {
-      PORTA=~data;
-      _delay_ms(700);
-    } else {
-      data=0;
-    } 
-  }
-
-  if (!(PINH & (1<<6))){
-    eeprom_write_byte((uint8_t*)0,data); // write data to eeprom
-    for (int i=0;i<8;i++) {
-      PORTB ^=(1<<7);
-      _delay_ms(200);
-    }
-  }
-
-  if (!(PINH & (1<<5))){
-    data=eeprom_read_byte((uint8_t*)0);
-    PORTA=0xFF;
-    _delay_ms(800);
-    PORTA=~data;
-    if(data==1){
-      while(1){
-      PORTB ^= (1<<5);
-      _delay_ms(700);
-      }
-    } 
+void setup() {
+    // Mengatur PB1 (pin 9) sebagai output untuk buzzer
+    pinMode(speakerPin, OUTPUT);
     
-    if(data==2){
-      while(1){
-      PORTB ^= (1<<5);
-      _delay_ms(300);
-      }
-    } 
-     if(data==3){
-      while(1){
-      PORTB ^= (1<<5);
-      _delay_ms(100);
-      }
-    } 
-  }}
+    // Mengatur PD2 (pin 2) sebagai input dengan pull-up resistor
+    pinMode(2, INPUT_PULLUP);
+    
+    // Mengatur PD3 (pin 3) sebagai input dengan pull-up resistor
+    pinMode(3, INPUT_PULLUP);
+    
+    // Inisialisasi komunikasi serial untuk debugging
+    Serial.begin(9600);
 }
 
+void playAudio(const byte* audioData, int audioDataSize) {
+    for (int i = 0; i < audioDataSize; i++) {
+        byte audioSample = pgm_read_byte_near(audioData + i);
+        analogWrite(speakerPin, audioSample);
+        delayMicroseconds(125);  // Delay untuk frekuensi sampling 8 kHz
+    }
+}
+
+void loop() {
+    // Memeriksa tombol di PD2 (pin 2)
+    if (digitalRead(2) == LOW) {
+        Serial.println("Button 1 pressed");
+        playAudio(audioData1, audioDataSize1);
+    }
+    // Memeriksa tombol di PD3 (pin 3)
+    else if (digitalRead(3) == LOW) {
+        Serial.println("Button 2 pressed");
+        playAudio(audioData2, audioDataSize2);
+    }
+}
+
+int main(void) {
+    init(); // Inisialisasi Arduino core
+    setup();
+    while (1) {
+        loop();
+    }
+    return 0;
+}
